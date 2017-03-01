@@ -1,0 +1,13 @@
+.container{
+    border-top: 1px solid #dddddd;
+    background-color:#000000;
+    padding-bottom:20px;
+    .main-title{
+        color:#e6a45c;
+        font-size: 24px;
+        text-align:center;
+        padding-bottom:20px;
+        padding-top:20px;
+
+    }
+}

@@ -1,0 +1,35 @@
+.cell-container {
+    display:flex;
+    background-color: #eeeeee;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom:1px solid #dddddd;
+    border-left:1px solid #dddddd;
+    border-right:1px solid #dddddd;
+    overflow:hidden;
+    .panel-left{
+        width:50%;
+        background-color: #ffffff;
+        width: 100px;
+        height: 100px;
+    }
+    .panel-right{
+        flex:1;
+        margin-left:20px;
+        .cell-title{
+            color:#333333;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .cell-size{
+            font-size:12px;
+            color:#999999;
+        }
+        .cell-weight{
+            font-size: 20px;
+            color:#ff6200;
+        }
+    }
+
+}
